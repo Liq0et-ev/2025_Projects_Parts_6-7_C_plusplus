@@ -1,0 +1,11 @@
+﻿  Animal.cpp
+  Test.cpp
+C:\Users\User\source\repos\Animal_07_01\Test.cpp(18,12): error C2665: 'ZooPark::ZooPark': no overloaded function could convert all the argument types
+C:\Users\User\source\repos\Animal_07_01\ZooPark.h(23,1): message : could be 'ZooPark::ZooPark(const ZooPark &)'
+C:\Users\User\source\repos\Animal_07_01\Test.cpp(18,12): message : 'ZooPark::ZooPark(const ZooPark &)': cannot convert argument 1 from 'int' to 'const ZooPark &'
+C:\Users\User\source\repos\Animal_07_01\Test.cpp(18,13): message : Reason: cannot convert from 'int' to 'const ZooPark'
+C:\Users\User\source\repos\Animal_07_01\Test.cpp(18,13): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\User\source\repos\Animal_07_01\Test.cpp(18,12): message : while trying to match the argument list '(int)'
+  ZooAnimal.cpp
+  ZooPark.cpp
+  Generating Code...
